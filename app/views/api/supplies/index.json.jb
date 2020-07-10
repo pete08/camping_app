@@ -1,0 +1,3 @@
+@supplies.map do |map_loop_item|
+  render partial: "supply.json.jb", locals: {randomly: map_loop_item}
+end

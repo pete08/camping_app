@@ -1,0 +1,4 @@
+{id: randomly.id,
+  name: randomly.name,
+  description: randomly.description,
+  price: randomly.price}

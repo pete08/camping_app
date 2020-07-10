@@ -8,9 +8,14 @@
 require 'faker'
 
 item = Supply.new(name: "pick axe", description: "an axe for ice", price: 50.75)
+item.save
 item = Supply.new(name: "sunglasses", description: "UV proctection for your eyes", price: 25.99)
+item.save
 item = Supply.new(name: "stove", description: "steel stove gauranteed for over 50 years", price: 29.75)
+item.save
 item = Supply.new(name: "propane", description: "portable propane for your camping stove", price: 15.01)
+item.save
 item = Supply.new(name: "rain fly", description: "protect your tent from the elements", price: 50.50)
-item = Supply.new(name: "fishing pole", description: "catch your dinner", price: 25.50)
+item.save
+item = Supply.new(name: "tent stakes", description: "steel tent stakes", price: 2.50)
 item.save
